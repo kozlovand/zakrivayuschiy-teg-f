@@ -463,10 +463,13 @@
   text-transform: uppercase;
 }
 
+.dialog__form-close {
+  grid-column: 1 / -1;
+}
+
 .dialog__button-close {
   position: relative;
   display: flex;
-  grid-column: 1 / -1;
   justify-content: center;
   align-items: center;
   width: 100%;
