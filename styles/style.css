@@ -368,7 +368,7 @@
     (-webkit-text-stroke: 1px var(--bg-color))
 ) {
   .content__card-label {
-    /* text-stroke: 1px var(--bg-color); */
+    text-stroke: 1px var(--bg-color);
     text-shadow: none;
     -webkit-text-stroke: 1px var(--bg-color);
   }
@@ -536,4 +536,8 @@
   .footer__dialog {
     padding-inline: 38px;
   }
+
+  .footer__svg {
+    width: 28px;
+    height: 28px;
 }
