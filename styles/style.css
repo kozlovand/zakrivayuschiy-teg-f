@@ -326,7 +326,6 @@
 .button__text {
   position: relative;
   color: var(--accent-btn-like);
-  line-height: 0.9;
   mix-blend-mode: difference;
 }
 
